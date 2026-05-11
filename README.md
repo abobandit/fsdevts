@@ -2,7 +2,7 @@
 
 Веб-приложение: каталог товаров с административной панелью.
 Backend: Laravel 12 (API + Inertia)
-Frontend: Vue 3 + Inertia + Element Plus + Tailwind
+Frontend: Vue 3 + Inertia + Element Plus + Tailwind + Docker
 DB: PostgreSQL
 Auth: Laravel Sanctum
 
