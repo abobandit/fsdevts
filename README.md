@@ -65,11 +65,17 @@ Auth (Sanctum):
 GET /api/user
 📦 API
 Products
+
 GET /api/products — список (пагинация)
+
 GET /api/products/{id} — товар
+
 POST /api/products — создать (auth)
-PUT /api/products/{id} — обновить (auth)
+
+Patch /api/products/{id} — обновить (auth)
+
 DELETE /api/products/{id} — удалить (auth)
+
 Categories
 GET /api/categories
 🧠 Функционал
@@ -94,7 +100,7 @@ resources/js/
 ├── Layouts/
 🔥 Особенности реализации
 Composition API
-Axios instance с token interceptor
+CSRF tokens
 Inertia shared auth props
 soft delete товаров
 pagination API Laravel
