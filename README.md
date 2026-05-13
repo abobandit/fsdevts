@@ -43,12 +43,19 @@ Frontend (Vite):
 npm run dev
 🐳 Docker (если используется)
 Запуск контейнеров
+
 docker compose up -d --build
+
 Миграции внутри контейнера
+
 docker exec -it app php artisan migrate --seed
+
 Node внутри контейнера (если нужно)
+
 docker exec -it app npm install
+
 docker exec -it app npm run dev
+
 🔐 Авторизация
 Login endpoint:
 POST /api/login
